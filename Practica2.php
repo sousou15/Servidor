@@ -46,6 +46,7 @@
 
  	echo "<br>";
  	$real = 3.14;
+ 	echo "<b>c)</b> ";
  	echo $real;
  	echo "<br>";
 
@@ -53,14 +54,15 @@
     'valor1' => 1,
     'valor2' => 2,
     'valor3' => 3);
-    echo "<b>c)</b> ";
+    echo "<b>d)</b> ";
     print_r($vector);
 
 
  	echo "<br>";
  	echo "<b>Ejercicio 2</b><br>";
  	$flag = false;
- 	echo "->" . $flag; //no va a mostrar nada porque el valor flase corresponde al valor null en php. Un echo a este valor no aparece en pantalla. Lo concateno a una flecha para poder localizar donde estaría.
+ 	echo $flag; //no va a mostrar nada porque el valor false corresponde al valor null en php. Un echo a este valor no aparece en pantalla. 
+ 	echo "<br> No muestra nada porque el valor false de un boolean corresponde al valor null en php. Un echo a este valor no aparece en pantalla.";
 
  	echo "<br>";
  	echo "<b>Ejercicio 3</b><br>";
@@ -87,11 +89,11 @@
 	echo "<br>";
 	echo "<b>Ejercicio 7</b><br>";
 	$vacia = null;
-	echo is_null($vacia); // Esta sentencia devuelve "1" ya que es de tipo boolean y el valor "1" significa true.
+	echo is_null($vacia) . "<br> Esta sentencia devuelve \"1\" ya que es de tipo boolean y este valor significa true."; // Esta sentencia devuelve "1" ya que es de tipo boolean y el valor "1" significa true.
 
 	echo "<br>";
 	echo "<b>Ejercicio 8</b><br>";
-	echo intval($concatenacion); //El valor entero de var en caso de éxito, o 0 en caso de error. En este caso es error por eso obtenemos un 0.
+	echo intval($concatenacion) . "<br> Función que devuelve el valor entero de var en caso de éxito, o 0 en caso de error. En este caso es error por eso obtenemos un 0."; //El valor entero de var en caso de éxito, o 0 en caso de error. En este caso es error por eso obtenemos un 0.
 
 	echo "<br>";
 	echo "<b>Ejercicio 9</b><br>";
