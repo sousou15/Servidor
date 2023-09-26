@@ -15,10 +15,6 @@
             background-color: whitesmoke;
             font-size: 24px;
         }
-        hr{
-            margin-left: 5%;
-            margin-right: 5%;
-        }
         h1{
             text-align: center;
     		-webkit-text-stroke: 2px orange; /* width and color */
